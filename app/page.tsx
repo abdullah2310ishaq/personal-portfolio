@@ -190,6 +190,8 @@ export default function Portfolio() {
         </div>
       </section>
 
+    
+
       {/* Skills Section */}
       <section className="py-20 px-4">
         <div className="max-w-5xl mx-auto">
