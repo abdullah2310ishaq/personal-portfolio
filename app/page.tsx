@@ -169,6 +169,29 @@ export default function Portfolio() {
             <Card className="border-0 shadow-sm hover:shadow-md transition-all duration-300 bg-background">
               <CardContent className="p-8">
                 
+                <h3 className="text-xl font-light mb-3">MEDI-CONNECT</h3>
+                <p className="text-muted-foreground font-light text-sm mb-6 leading-relaxed">
+                  Healthcare management system for Fazaia Medical College with patient tracking and prescriptions.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <Badge variant="secondary" className="font-light">
+                    Flutter
+                  </Badge>
+                  <Badge variant="secondary" className="font-light">
+                    Firebase
+                  </Badge>
+                  <Badge variant="secondary" className="font-light">
+                    Provider
+                  </Badge>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            <Card className="border-0 shadow-sm hover:shadow-md transition-all duration-300 bg-background">
+              <CardContent className="p-8">
+                
                 <h3 className="text-xl font-light mb-3">BridgeIt</h3>
                 <p className="text-muted-foreground font-light text-sm mb-6 leading-relaxed">
                   Platform connecting students with industry experts, featuring secure payments.
@@ -184,6 +207,22 @@ export default function Portfolio() {
                     .NET
                   </Badge>
                 </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-sm hover:shadow-md transition-all duration-300 bg-background">
+              <CardContent className="p-8">
+                
+                <h3 className="text-xl font-light mb-3">More Projects</h3>
+                <p className="text-muted-foreground font-light text-sm mb-6 leading-relaxed">
+                  Explore additional mobile and web applications in our complete portfolio.
+                </p>
+                <Button asChild variant="outline" className="font-light bg-transparent">
+                  <Link href="/projects">
+                    View All Projects
+                    <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
+                </Button>
               </CardContent>
             </Card>
           </div>

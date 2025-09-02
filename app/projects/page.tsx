@@ -137,6 +137,30 @@ export default function ProjectsPage() {
     },
     {
       id: 7,
+      title: "MEDI-CONNECT",
+      description:
+        "Comprehensive healthcare management system developed for Fazaia Medical College, Air University Islamabad. Connects doctors and patients for data collection, prescription management, and health monitoring.",
+      longDescription:
+        "MEDI-CONNECT revolutionizes healthcare management by creating a seamless connection between doctors and patients. The app enables doctors to collect detailed patient data including habits, lifestyle, and health metrics to prescribe personalized medicines, diets, and exercise routines. Patients receive daily alarms, track their progress, and maintain comprehensive health logs while doctors monitor and adjust treatments in real-time.",
+      icon: "🏥",
+      tech: ["Flutter", "Firebase", "Provider", "Push Notifications", "Real-time Database", "Cloud Functions"],
+      features: [
+        "Patient data collection and habit tracking",
+        "Doctor dashboard with detailed patient profiles",
+        "Prescription management system",
+        "Daily medicine alarms and reminders",
+        "Diet and exercise plan distribution",
+        "Real-time health logs and monitoring",
+        "Push notifications for appointments",
+        "Secure patient-doctor communication",
+        "Progress tracking and analytics",
+        "Multi-user authentication system",
+      ],
+     
+      image: "/medical.png",
+    },
+    {
+      id: 8,
       title: "BridgeIt (Final Year Project)",
       description:
         "Innovative platform connecting students with industry experts, featuring secure payment processing and comprehensive project management tools for educational collaboration.",
